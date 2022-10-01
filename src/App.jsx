@@ -11,7 +11,7 @@ import {
   SiReact,
   SiMaterialui,
   SiGit,
-  SiFacebook,
+
 } from "react-icons/si";
 import { TbArrowTopSquare } from "react-icons/tb";
 import Aos from "aos";
@@ -20,8 +20,6 @@ import Footer from "./Footer/Footer";
 import Work from "./Work/Work";
 
 function App() {
-
-
   useEffect(() => {
     Aos.init({
       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -42,6 +40,56 @@ function App() {
       anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
     });
   }, []);
+
+  const wdata = [
+    {
+      pname: 'Moviehub',
+      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
+      pstack: 'html css js react redux',
+      plive: 'https://moviehub27.netlify.app',
+      psource: 'https://github.com/MonishSoni/movie_app',
+    },
+
+    {
+      pname: 'Mytube',
+      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
+      pstack: 'html css js react redux',
+      plive: 'https://moviehub27.netlify.app',
+      psource: 'https://github.com/MonishSoni/movie_app',
+    },
+
+    {
+      pname: 'Carastore',
+      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
+      pstack: 'html css js react redux',
+      plive: 'https://moviehub27.netlify.app',
+      psource: 'https://github.com/MonishSoni/movie_app',
+    },
+
+    {
+      pname: 'Todo',
+      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
+      pstack: 'html css js react redux',
+      plive: 'https://moviehub27.netlify.app',
+      psource: 'https://github.com/MonishSoni/movie_app',
+    },
+
+    {
+      pname: 'Dolla',
+      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
+      pstack: 'html css js react redux',
+      plive: 'https://moviehub27.netlify.app',
+      psource: 'https://github.com/MonishSoni/movie_app',
+    },
+
+    {
+      pname: 'Findtrend',
+      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
+      pstack: 'html css js react redux',
+      plive: 'https://moviehub27.netlify.app',
+      psource: 'https://github.com/MonishSoni/movie_app',
+    }
+  ]
 
   return (
     <>
@@ -69,7 +117,7 @@ function App() {
         </div>
 
         {/*============== about ================ */}
-        <div id="about" className="about">
+        <div id="about" className="about" >
           <div className="atext">
             <h3>About Me</h3>
             <p>
@@ -86,9 +134,9 @@ function App() {
               I’m open for learning and solving challenges using my skills and
               provide value to the growth of an organization.
             </p>
-            <div className="abtn">
+            <div className="abtn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" >
               <a
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://www.linkedin.com/in/monishsoni27/"
               >
                 Hire Me
@@ -101,7 +149,7 @@ function App() {
           </div>
         </div>
         {/* ============= Skills ============= */}
-        <div id="skills" className="skills">
+        <div id="skills" className="skills" >
           <div className="stext">
             <h3>My Skills</h3>
             <p>
@@ -109,40 +157,40 @@ function App() {
               latest technologies that helps users get things done with less
               effort and time.
             </p>
-            <div className="sbtn">
+            <div className="sbtn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" >
               <a
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://www.linkedin.com/in/monishsoni27/"
               >
-                Contact Me
+                Resume
               </a>
             </div>
           </div>
 
-          <div className="simg">
+          <div className="simg" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150" >
             <div className="scon">
-              <div className="box" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">
+              <div className="box" >
                 <SiHtml5 />
               </div>
-              <div className="box"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">
+              <div className="box" >
                 <SiCss3 />
               </div>
-              <div className="box"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">
+              <div className="box" >
                 <SiJavascript />
               </div>
-              <div className="box"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">
+              <div className="box" >
                 <SiBootstrap />
               </div>
-              <div className="box"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">
+              <div className="box" >
                 <SiSass />
               </div>
-              <div className="box"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">
+              <div className="box" >
                 <SiReact />
               </div>
-              <div className="box"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">
+              <div className="box" >
                 <SiMaterialui />
               </div>
-              <div className="box"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">
+              <div className="box" >
                 <SiGit />
               </div>
             </div>
@@ -150,24 +198,24 @@ function App() {
         </div>
 
         {/* ============= work =============== */}
-        <div className="work" id="work">
+        <div className="work" id="work" >
           <h3>My Works</h3>
           <div className="wcardcon">
-            <Work />
-            <Work />
-            <Work />
-            <Work />
-            <Work />
-            <Work />
+            {wdata.map((elem) => (
+              <Work pname={elem.pname} pdes={elem.pdes} pstack={elem.pstack} plive={elem.plive} psource={elem.psource} />
+            ))
+
+            }
+
           </div>
         </div>
         {/* ============= connect ============= */}
 
-        <div className="pconnect">
-          <div data-aos="flip-down" data-aos-duration="1500" data-aos-offset="50" className="cbox">
+        <div className="pconnect" >
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150" className="cbox">
             <h3>Start a Project</h3>
             <p>Interested in Working Together ??</p>
-            <a href="">Lets do this</a>
+            <a target='_blank' href="https://www.linkedin.com/in/monishsoni27/" rel="noreferrer" >Lets do this</a>
           </div>
         </div>
 

@@ -1,19 +1,15 @@
 import React from "react";
 
-const Work = () => {
+const Work = ({ pname, pdes, pstack, plive, psource }) => {
   return (
     <>
-      <div data-aos="fade-up" data-aos-duration="1200" data-aos-offset="150" className="wcard">
-        <h4 className="title">Project1</h4>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat hic
-          reiciendis voluptates expedita, pariatur provident autem est officia
-          harum commodi!
-        </p>
-        <p className="stack">html / css / javascript / bootstrap</p>
+      <div className="wcard" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150" >
+        <h4 className="title">{pname}</h4>
+        <p>{pdes}</p>
+        <p className="stack">{pstack}</p>
         <div className="wlink">
-          <a href="">Live</a>
-          <a href="">Source Code</a>
+          <a target='_blank' rel="noreferrer" href={plive}>Live</a>
+          <a target='_blank' rel="noreferrer" href={psource}>Source Code</a>
         </div>
       </div>
     </>
