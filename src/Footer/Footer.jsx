@@ -13,11 +13,11 @@ const Footer = () => {
         <div className="connect">
           <h3>Connect with Me</h3>
           <div className="social_links">
-            <a href="/"  rel="noreferrer" ><SiFacebook/></a>
-            <a href="/"  rel="noreferrer" ><SiInstagram/></a>
-            <a href="/"  rel="noreferrer" ><SiGithub/></a>
-            <a href="/"  rel="noreferrer" ><SiLinkedin/></a>
-            <a href="/"  rel="noreferrer" ><SiTwitter/></a>
+            <a target='_blank' href="https://www.facebook.com/profile.php?id=100004474998090"  rel="noreferrer" ><SiFacebook/></a>
+            <a target='_blank' href="https://www.instagram.com/monishsoni27/"  rel="noreferrer" ><SiInstagram/></a>
+            <a target='_blank' href="https://github.com/MonishSoni"  rel="noreferrer" ><SiGithub/></a>
+            <a target='_blank' href="https://www.linkedin.com/in/monishsoni27/"  rel="noreferrer" ><SiLinkedin/></a>
+
            
           </div>
         </div>

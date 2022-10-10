@@ -44,50 +44,53 @@ function App() {
   const wdata = [
     {
       pname: 'Moviehub',
-      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
-      pstack: 'html css js react redux',
+      pdes: `Moviehub is a ReactJS-based web app that provides users with information about the latest movies.`,
+      pstack: 'REACT, REACT-ROUTER, REDUX, MATERIAL UI, TMDB API',
       plive: 'https://moviehub27.netlify.app',
       psource: 'https://github.com/MonishSoni/movie_app',
     },
 
     {
       pname: 'Mytube',
-      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
-      pstack: 'html css js react redux',
-      plive: 'https://moviehub27.netlify.app',
-      psource: 'https://github.com/MonishSoni/movie_app',
+      pdes: `Mytube is a ReactJS-based web app where users can watch youtube videos, YT API is used to fetch and display data to users`,
+      pstack: 'REACT, REACT-ROUTER, MATERIAL UI, Youtube API',
+      plive: 'https://mytube27.netlify.app',
+      psource: 'https://github.com/MonishSoni/mytube',
     },
 
     {
       pname: 'Carastore',
-      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
-      pstack: 'html css js react redux',
-      plive: 'https://moviehub27.netlify.app',
-      psource: 'https://github.com/MonishSoni/movie_app',
+      pdes: 'Carastore is a responsive e-commerce website frontend built with Html, CSS & JavaScript',
+      pstack: 'html, css, js ',
+      plive: 'https://carastore.netlify.app',
+      psource: 'https://github.com/MonishSoni/carastore',
     },
 
     {
       pname: 'Todo',
-      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
-      pstack: 'html css js react redux',
-      plive: 'https://moviehub27.netlify.app',
-      psource: 'https://github.com/MonishSoni/movie_app',
+      pdes: `Todo is a web app where users can store their day-to-day tasks. It has CRUD functionality, meaning a user can create, read, update and delete a particular task
+      `,
+      pstack:  'REACT, REDUX, CSS',
+      plive: 'https://todo27.netlify.app',
+      psource: 'https://github.com/MonishSoni/Todo_App',
     },
 
     {
-      pname: 'Dolla',
-      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
-      pstack: 'html css js react redux',
-      plive: 'https://moviehub27.netlify.app',
-      psource: 'https://github.com/MonishSoni/movie_app',
+      pname: 'Coinsearch',
+      pdes: `Coinsearch is a ReactJS-based web app that provides information about top cryptocurrencies.
+      Coingecko API is used to fetch data about currencies.
+      `,
+      pstack: 'react, react-router, material ui, css, coingecko api',
+      plive: 'https://coinsearch27.netlify.app',
+      psource: 'https://github.com/MonishSoni/coinsearch',
     },
 
     {
       pname: 'Findtrend',
-      pdes: 'lorem fs fdfdfdf gdgdgd gdgdgd gdgdg dbff ghj jgfgfjgfj jgfjgf',
-      pstack: 'html css js react redux',
-      plive: 'https://moviehub27.netlify.app',
-      psource: 'https://github.com/MonishSoni/movie_app',
+      pdes: 'Findtrend is a landing page design for a browser tab management software',
+      pstack: 'html / css',
+      plive: 'https://findtrend27.netlify.app',
+      psource: 'https://github.com/MonishSoni/findtrend',
     }
   ]
 
@@ -134,7 +137,7 @@ function App() {
               I’m open for learning and solving challenges using my skills and
               provide value to the growth of an organization.
             </p>
-            <div className="abtn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" >
+            <div className="abtn" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="150" >
               <a
                 target="_blank" rel="noreferrer"
                 href="https://www.linkedin.com/in/monishsoni27/"
@@ -157,17 +160,17 @@ function App() {
               latest technologies that helps users get things done with less
               effort and time.
             </p>
-            <div className="sbtn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" >
+            <div className="sbtn" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="150" >
               <a
-                target="_blank" rel="noreferrer"
-                href="https://www.linkedin.com/in/monishsoni27/"
+                 target='_blank'
+                href="https://drive.google.com/file/d/1eLE1BX_cX7AsGE4vJoG0lT9JI5u7_0yp/view?usp=sharing"
               >
                 Resume
               </a>
             </div>
           </div>
 
-          <div className="simg" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150" >
+          <div className="simg" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="150" >
             <div className="scon">
               <div className="box" >
                 <SiHtml5 />

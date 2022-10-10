@@ -460,6 +460,7 @@ form button:hover {
   transition: all 0.3s ease;
   font-weight: 600;
   font-family: var(--fontr);
+  text-transform: capitalize;
 }
 
 .cbox a:hover {
@@ -492,8 +493,15 @@ form button:hover {
   padding: 20px 15px;
   border-radius: 5px;
   width: 300px;
+  min-height:300px;
 }
 
+.tstack{
+  margin: 0 0 -10px 0;
+  padding: 0;
+  color: #5bdf9a;
+  text-transform: capitalize !important;
+}
 .wcard h4 {
   color: var(--clr2);
   font-family: var(--fonti);
@@ -503,18 +511,26 @@ form button:hover {
 }
 
 .wcard p {
-  text-transform: uppercase;
-  font-family: var(--fontp);
   font-size: 12px;
   margin-top: 10px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  font-family: var(--fontp);
+}
+
+.wcard .stack{
+  text-transform: uppercase;
 }
 
 .wcard .wlink {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 15px;
   gap: 10px;
+  width: 100%;
+  
 }
 
 .wcard .wlink a {
@@ -524,12 +540,12 @@ form button:hover {
   outline: none;
   border: 1.5px solid #5bdf9a;
   border-radius: 5px;
-  padding: 5px 12px;
+  padding: 5px 10px;
   font-family: var(--fonti);
   font-size: 14px;
-  width: 120px;
   text-align: center;
   transition: all 0.3s ease;
+  width: 100%;
 }
 
 .wcard .wlink a:hover {
